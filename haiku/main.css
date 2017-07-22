@@ -294,7 +294,6 @@ DesktopNotification
 DesktopNotification #frame
 {
     border: 2px solid darkblue;
-    border-radius: 20px;
     background-color: qlineargradient(x1:0, y1:0, x2:0, y2:1,stop:0 #e4ecf1, stop:1 #d3e5f1);
 }
 
