@@ -20,26 +20,34 @@
 #navigation-button-back
 {
     qproperty-icon: url(images/previous.png);
+    qproperty-iconSize: 32px 32px;
+
 }
 
 #navigation-button-next
 {
     qproperty-icon: url(images/next.png);
+    qproperty-iconSize: 32px 32px;
 }
 
 #navigation-button-stop
 {
     qproperty-icon: url(images/stop.png);
+    qproperty-iconSize: 32px 32px;
+
 }
 
 #navigation-button-reload
 {
     qproperty-icon: url(images/reload.png);
+    qproperty-iconSize: 32px 32px;
+
 }
 
 #navigation-button-home
 {
     qproperty-icon: url(images/home.png);
+    qproperty-iconSize: 32px 32px;
 }
 
 #navigation-button-addtab
@@ -95,7 +103,8 @@
 #tabwidget-button-addtab
 {
     qproperty-icon: url(images/add.png);
-    qproperty-fixedsize: 22px 22px;
+#	uncomment to disable add tab widget
+#    qproperty-fixedsize: 0px 0px;
 }
 
 /*IconProvider*/
